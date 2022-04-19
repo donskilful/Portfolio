@@ -1,0 +1,61 @@
+To start a Nextjs app with typescript the very first command to run is 
+    * yarn create next-app --typescript
+        
+To add tailwind css to your nextjs project simply run the following command
+    * yarn add tailwindcss@latest postcss@latest autoprefixer@latest
+
+To create your tailwind css config file just run the following command on your terminal
+    * npx tailwindcss init -p
+
+To remove all unsused css files from your production code add the blow block of code to your tailwind.config.js file inside the module.exports object
+    * purge:['./pages/**/*.tsx', './components/**/*.tsx' ],
+
+Create a 'components' folder on your root directory then go under styles > global.css and paste in the following
+    * @tailwind base;
+    * @tailwind components;
+    * @tailwind utilities;
+
+    you could as well delete the Home.module.css if you wish to but it is not a must
+
+Open your index.tsx file, delete everything inside restart your server and start building your app
+
+To use react icons you need to run the following command 
+    * yarn add react-icons
+
+To use custom fonts you need to create a _document.tsx file in the same directory with the _app.tsx file 
+the paste in this: all you have to do is replace it with your desired font 
+
+
+
+        import Document, { Html, Head, Main, NextScript } from 'next/document'
+        class MyDocument extends Document {
+        render() {
+            return (
+            <Html>
+                <Head>
+                    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+                    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+                    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Poppins:wght@100;300;400;500&display=swap" rel="stylesheet"/>
+                </Head>
+                <body>
+                <Main />
+                <NextScript />
+                </body>
+            </Html>
+            )
+        }
+        }
+
+        export default MyDocument
+
+just grab any custom font from google fonts and replace the link tags above 
+
+To make use of extra custom colors just go inside your tailwind.config.js file and paste this or whatever colors you want to use inside the extends  object 
+        colors: {
+      transparent: 'transparent',
+      current: 'currentColor',
+      'white': '#ffffff',
+      'tahiti': {
+        100: '#cffafe',
+     
+      },
