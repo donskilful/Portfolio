@@ -1,4 +1,4 @@
-import { Iservice, Iskill } from "./type"
+import { Iproject, Iservice, Iskill } from "./type"
 import { RiComputerLine } from "react-icons/ri"
 import {FaServer} from 'react-icons/fa'
 import { AiOutlineAntDesign, AiOutlineApi } from "react-icons/ai"
@@ -96,5 +96,134 @@ export const tools:Iskill[] = [
         name: 'Framer',
         level: '50%',
         Icon: BsCircleFill
+    },
+]
+
+export const projects:Iproject[] = [
+    {
+        name: 'Algo Visual',
+        description: 'This app shows the statistical view about corona virus over the world',
+        image_path: '/images/algoVisual.png',
+        deployed_url: 'https://covid-19-tracker-by-sumit.web.app/',
+        github_url: 'https://github.com/Dey-Sumit/covid-19-tracker',
+        category: ['react'],
+        key_techs:['React', 'Chart.js', 'Material Ui']
+    },
+    {
+        name: 'Blink',
+        description: 'This app shows the statistical view about corona virus over the world',
+        image_path: '/images/blink.jpg',
+        deployed_url: 'https://covid-19-tracker-by-sumit.web.app/',
+        github_url: 'https://github.com/Dey-Sumit/covid-19-tracker',
+        category: ['react'],
+        key_techs:['React', 'Chart.js', 'Material Ui']
+    },
+    {
+        name: 'Chatapp',
+        description: 'This app shows the statistical view about corona virus over the world',
+        image_path: '/images/chatapp.jpg',
+        deployed_url: 'https://covid-19-tracker-by-sumit.web.app/',
+        github_url: 'https://github.com/Dey-Sumit/covid-19-tracker',
+        category: ['mongo'],
+        key_techs:['React', 'Chart.js', 'Material Ui']
+    },
+    {
+        name: 'Codepen',
+        description: 'This app shows the statistical view about corona virus over the world',
+        image_path: '/images/codepen.png',
+        deployed_url: 'https://covid-19-tracker-by-sumit.web.app/',
+        github_url: 'https://github.com/Dey-Sumit/covid-19-tracker',
+        category: ['django'],
+        key_techs:['React', 'Chart.js', 'Material Ui']
+    },
+    {
+        name: 'Color ',
+        description: 'This app shows the statistical view about corona virus over the world',
+        image_path: '/images/color.jpg',
+        deployed_url: 'https://covid-19-tracker-by-sumit.web.app/',
+        github_url: 'https://github.com/Dey-Sumit/covid-19-tracker',
+        category: ['react'],
+        key_techs:['React', 'Chart.js', 'Material Ui']
+    },
+    {
+        name: 'Covid Tracker',
+        description: 'This app shows the statistical view about corona virus over the world',
+        image_path: '/images/covid.jpg',
+        deployed_url: 'https://covid-19-tracker-by-sumit.web.app/',
+        github_url: 'https://github.com/Dey-Sumit/covid-19-tracker',
+        category: ['django'],
+        key_techs:['React', 'Chart.js', 'Material Ui']
+    },
+    {
+        name: 'Dev',
+        description: 'This app shows the statistical view about corona virus over the world',
+        image_path: '/images/dev.jpg',
+        deployed_url: 'https://covid-19-tracker-by-sumit.web.app/',
+        github_url: 'https://github.com/Dey-Sumit/covid-19-tracker',
+        category: ['react'],
+        key_techs:['React', 'Chart.js', 'Material Ui']
+    },
+    {
+        name: 'Football app',
+        description: 'This app shows the statistical view about corona virus over the world',
+        image_path: '/images/football.png',
+        deployed_url: 'https://covid-19-tracker-by-sumit.web.app/',
+        github_url: 'https://github.com/Dey-Sumit/covid-19-tracker',
+        category: ['node'],
+        key_techs:['React', 'Chart.js', 'Material Ui']
+    },
+    {
+        name: 'Netflix',
+        description: 'This app shows the statistical view about corona virus over the world',
+        image_path: '/images/Netflix.png',
+        deployed_url: 'https://covid-19-tracker-by-sumit.web.app/',
+        github_url: 'https://github.com/Dey-Sumit/covid-19-tracker',
+        category: ['node'],
+        key_techs:['React', 'Chart.js', 'Material Ui']
+    },
+    {
+        name: 'New Year',
+        description: 'This app shows the statistical view about corona virus over the world',
+        image_path: '/images/newYear.jpg',
+        deployed_url: 'https://covid-19-tracker-by-sumit.web.app/',
+        github_url: 'https://github.com/Dey-Sumit/covid-19-tracker',
+        category: ['react'],
+        key_techs:['React', 'Chart.js', 'Material Ui']
+    },
+    {
+        name: 'Portfolio',
+        description: 'This app shows the statistical view about corona virus over the world',
+        image_path: '/images/portfolio.jpg',
+        deployed_url: 'https://covid-19-tracker-by-sumit.web.app/',
+        github_url: 'https://github.com/Dey-Sumit/covid-19-tracker',
+        category: ['node'],
+        key_techs:['React', 'Chart.js', 'Material Ui']
+    },
+    {
+        name: 'Store app',
+        description: 'This app shows the statistical view about corona virus over the world',
+        image_path: '/images/store.jpg',
+        deployed_url: 'https://covid-19-tracker-by-sumit.web.app/',
+        github_url: 'https://github.com/Dey-Sumit/covid-19-tracker',
+        category: ['react'],
+        key_techs:['React', 'Chart.js', 'Material Ui']
+    },
+    {
+        name: 'tweetme',
+        description: 'This app shows the statistical view about corona virus over the world',
+        image_path: '/images/tweetme.jpg',
+        deployed_url: 'https://covid-19-tracker-by-sumit.web.app/',
+        github_url: 'https://github.com/Dey-Sumit/covid-19-tracker',
+        category: ['node'],
+        key_techs:['React', 'Chart.js', 'Material Ui']
+    },
+    {
+        name: 'Youtube Clone',
+        description: 'This app shows the statistical view about corona virus over the world',
+        image_path: '/images/youtubeClone.png',
+        deployed_url: 'https://covid-19-tracker-by-sumit.web.app/',
+        github_url: 'https://github.com/Dey-Sumit/covid-19-tracker',
+        category: ['react'],
+        key_techs:['React', 'Chart.js', 'Material Ui']
     },
 ]

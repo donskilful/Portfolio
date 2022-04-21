@@ -2,6 +2,7 @@ import { AiFillGithub, AiFillLinkedin, AiFillYoutube } from "react-icons/ai";
 import { GoLocation } from "react-icons/go";
 import { GiTie } from "react-icons/gi";
 import { useTheme } from "next-themes";
+import Image from "next/image";
 
 const Sidebar = () => {
   const { theme, setTheme } = useTheme();
@@ -12,10 +13,14 @@ const Sidebar = () => {
 
   return (
     <>
-      <img
-        className="w-32 h-32 mx-auto rounded-full"
+      <Image
+        className="mx-auto rounded-full"
         src="https://lh3.googleusercontent.com/a-/AOh14GiX08tHI1McvPXDHUJaUxI_co0si9Eu6VeFhmc8Wg=s288-p-rw-no"
         alt="Onoriode Ufuoma"
+        height='128'
+        width='128'
+        layout='intrinsic'
+        quality='100'
       />
       <h3 className="my-4 text-3xl font-medium tracking-wider font-Kaushan">
         <span className="text-green">Onoriode </span>
