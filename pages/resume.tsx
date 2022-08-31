@@ -24,7 +24,7 @@ const resume = () => {
             <h5 className="my-2 text-xl font-bold"> Sofware Engineer</h5>
             <p className="font-semibold ">TCS (2022 - on)</p>
             <p className="my-3">
-              Coding was my hobby ❤ but now it's my Job 😁
+              Coding was my hobby ❤ but now it is my Job 😁
             </p>
           </div>
         </div>
