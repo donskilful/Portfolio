@@ -8,11 +8,11 @@ const index = () => {
   return (
     <div className="flex flex-col flex-grow px-6 pt-1">
       <h5 className="my-3 font-medium">
-        I am currently a remote frontend developer based at Abuja, I studied
+        I am a remote web & mobile app developer based at Abuja, I studied
         computer science and i have been writting codes and building
-        applications, I have over 5 years of experience in web design, I have
-        over 2 years experience of full stack web development with differnt
-        frameworks.
+        applications, I have over 5 years of experience in web design & development, I have
+        over 3 years experience of full stack web development with differnt
+        frameworks with more strength on backend (node.js).
       </h5>
       <div
         className="flex-grow p-4 mt-5 bg-gray-400 dark:bg-dark-100"

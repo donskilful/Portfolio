@@ -11,20 +11,20 @@ const resume = () => {
           <div>
             <h5 className="my-2 text-xl font-bold">Computer Science</h5>
             <p className="font-semibold ">
-              Federal polytechnic oko ( 2016-2019 )
+              Federal polytechnic oko ( 2016-2018/19 )
             </p>
             <p className="my-3">
-              I am currently pursuing my Masters in Computer Science
+              I am currently making plans to pursue my Masters in Computer Science
             </p>
           </div>
         </div>
         <div>
           <h5 className="my-3 text-2xl font-bold">Experience</h5>
           <div>
-            <h5 className="my-2 text-xl font-bold"> Sofware Engineer Jr.</h5>
+            <h5 className="my-2 text-xl font-bold"> Sofware Engineer</h5>
             <p className="font-semibold ">TCS (2022 - on)</p>
             <p className="my-3">
-              I am currently doing this Job because it is my dream Job
+              Coding was my hobby ❤ but now it's my Job 😁
             </p>
           </div>
         </div>

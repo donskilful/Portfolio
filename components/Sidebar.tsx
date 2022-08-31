@@ -15,7 +15,7 @@ const Sidebar = () => {
     <>
       <Image
         className="mx-auto rounded-full"
-        src="https://lh3.googleusercontent.com/a-/AOh14GiX08tHI1McvPXDHUJaUxI_co0si9Eu6VeFhmc8Wg=s288-p-rw-no"
+        src="https://lh3.googleusercontent.com/a-/AFdZucpj9KWHWdSZADzl0NrJShQopDhqexHwu-GtemgGXA=s96-c-rg-br100"
         alt="Onoriode Ufuoma"
         height='128'
         width='128'
@@ -31,7 +31,7 @@ const Sidebar = () => {
       </p>
       <a
         className="flex items-center justify-center px-2 py-1 my-3 bg-gray-200 rounded-full dark:bg-dark-300"
-        href=""
+        href="https://docs.google.com/document/d/1Q1Mci3xlC0WxL_alKXQuZGc3bfXhVt9BwM2sXHRjLU0/edit?usp=sharing"
         download="name"
       >
         <GiTie className="w-6 h-6" /> Download Resume
@@ -41,10 +41,10 @@ const Sidebar = () => {
         <a href="">
           <AiFillYoutube className="w-8 h-8 cursor-pointer" />
         </a>
-        <a href="">
+        <a href="https://github.com/donskilful">
           <AiFillGithub className="w-8 h-8 cursor-pointer" />
         </a>
-        <a href="">
+        <a href="linkedin.com/in/onoriode-ufuoma-ba743019a">
           <AiFillLinkedin className="w-8 h-8 cursor-pointer" />
         </a>
       </div>
